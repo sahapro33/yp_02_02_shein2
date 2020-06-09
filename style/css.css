@@ -1,0 +1,199 @@
+body{
+	margin: 0px;
+height: 300%;
+}
+.rus{
+	height: 100%;
+	width: 100%;
+}
+.logo{
+	width: 100%;
+	display: flex;
+}
+.XRE{
+	height: 110px;
+	width: 13%;
+background-image: url('../img/lo.png');
+background-size: contain;
+    background-repeat: no-repeat;
+}
+.deviz{
+	font:italic 4.5vw Monotype Corsiva ;
+	color:#CF5569;
+	width: 70%;
+	text-align: center;
+	padding-top: 1.7%;
+}
+.adres{
+	padding-top: 10%;
+	padding-right: 20%;
+	display:flex;
+	font: italic 1.5vw Sitka Subheading;
+
+}
+.ru{
+	padding: 5px;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 50px;
+	margin-right: 5%;
+	margin-top: 5px;
+	font: 1.2rem Comic Sans MS;
+
+}
+.en{
+	padding: 5px;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 50px;
+	margin-top: 5px;
+	font: 1.2rem Comic Sans MS;
+}
+.knop{
+	width: 14%;
+	display:flex;
+	flex-wrap: wrap;
+}
+/*Настройки меню*/
+.menu{
+	display: flex;
+	width: 78%;
+	
+	background-color: rgb(232, 218, 191);
+	margin-left:auto ;
+	margin-right: auto;
+	
+	/*положение по оси z*/
+	position: relative;
+	z-index: 2;
+	margin-top: -390px;
+	
+}
+@media (max-width: 900px){
+	.menu{
+		width: 100%;
+	}
+}
+/*Настройки ссылок*/
+.elem>a{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+}
+/*Настройки текста меню*/
+.elem>a>p{
+	margin: 0px;
+	color: black;	
+	font:italic calc(12px + 1.5vw) Century Gothic ;
+}
+.elem{
+	display: flex;
+	flex-grow:1;
+	height: 90%;
+	text-align: center;
+	border-right: 1px solid #000000;
+	
+}
+.elem>a>p:hover{
+	color: rgb(181, 114, 70);
+}
+.contacts{
+	border-right: none
+}
+
+.booking{
+	display: flex;
+	position: relative;
+	width: 97.98%;
+	background-color: rgb(232, 218, 191);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.reservation-container_text{ 
+margin-left: 20px; 
+font-size: 25px;
+flex: 0 0 10%;
+}
+.reservation-container_hotel{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.reservation-container_date{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.reservation-container_date_close{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.reservation-container_persons{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.reservation-container_search { 
+	display: flex;	
+	font-size: 20px;
+	align-self: center;
+}
+select{
+	border-color:rgb(136, 112, 48);
+	border-width: 2px;
+	font-size: 20px;
+	min-width: 250px;
+}
+#davaToday{
+	font-size: 17px;
+	border-style: solid;
+	border-color:rgb(136, 112, 48);
+}
+#davaToday2{
+	font-size: 17px;
+	border-style: solid;
+	border-color:rgb(136, 112, 48);
+}
+.bott{
+	align-self: center;
+	width:100% ;
+	height: 100%;
+	background-color: rgb(198, 163, 97);
+}
+.bott>a{
+	padding: 5px 10px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	font-size: 28px;
+	color: white;
+}
+.reservation-container_date{
+	font-size: 1.2rem;
+}
+.reservation-container_hotel{
+	font-size: 1.2rem;
+}
+.reservation-container_date_close{
+	font-size: 1.2rem;
+}
+.reservation-container_persons{
+	font-size: 1.2rem;
+}
+.content{
+	width: 80%;
+	background-color: rgb(242, 228, 202);
+	padding-top: 15px;
+	padding-left: 100px;
+	padding-bottom: 100px;
+	padding-right: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
